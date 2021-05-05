@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="training" max_length="40" name="x_58872_needit_training" type="collection">
+        <element choice="1" label="Request type" max_length="40" name="request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Facilities" value="Facilities"/>
+                <element inactive_on_update="false" label="Human Resources" value="Human Resources"/>
+                <element inactive_on_update="false" label="Legal" value="Legal"/>
+            </choice>
+        </element>
+        <element choice="1" label="What needed" max_length="40" name="what_needed" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="When needed" max_length="40" name="when_needed" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>
